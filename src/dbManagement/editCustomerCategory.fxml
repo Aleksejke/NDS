@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="categoriesEditPane" prefHeight="137.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dbManagement.EditCustomerCategoryController">
+   <children>
+      <VBox layoutY="-1.0" prefHeight="100.0" prefWidth="382.0">
+         <children>
+            <JFXCheckBox fx:id="firstCategory" checkedColor="#4059a9" mnemonicParsing="false" prefHeight="19.0" prefWidth="386.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="secondCategory" checkedColor="#4059a9" mnemonicParsing="false" prefHeight="19.0" prefWidth="398.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="thirdCategory" checkedColor="#4059a9" mnemonicParsing="false" prefHeight="19.0" prefWidth="398.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </JFXCheckBox>
+         </children>
+      </VBox>
+      <HBox layoutY="98.0" prefHeight="39.0" prefWidth="382.0">
+         <children>
+            <JFXButton onAction="#removeCustomerCategory" prefHeight="60.0" prefWidth="200.0" styleClass="-jfx-button, handOnBtn" stylesheets="@../styles/addNewUser.css" text="Remove" />
+            <JFXButton onAction="#cancelCategoryChanges" prefHeight="60.0" prefWidth="200.0" styleClass="-jfx-button, handOnBtn" stylesheets="@../styles/addNewUser.css" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

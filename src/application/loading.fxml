@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="bgPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" style="-fx-background-color: #f7ffff;" xmlns="http://javafx.com/javafx/8.0.152" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoadingController">
+   <children>
+      <ImageView fx:id="ldgif" fitHeight="78.0" fitWidth="98.0" layoutX="158.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ld.gif" />
+         </image></ImageView>
+      <ImageView fitHeight="99.0" fitWidth="234.0" layoutX="83.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/loading.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

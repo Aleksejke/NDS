@@ -1,0 +1,21 @@
+.-jfx-button {
+    -fx-background-color: #4059a9;
+    -fx-font-size: 12pt;
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+}
+
+.-jfx-button:hover {
+    -fx-background-color: #e5e24e;
+    -fx-text-fill: #4059a9;
+}
+
+.text {
+    -fx-prompt-text-fill: black;
+    -fx-text-fill: black;
+    -fx-font-size: 10.5pt;
+}
+
+.handOnBtn {
+    -fx-cursor: hand;
+}

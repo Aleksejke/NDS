@@ -1,0 +1,130 @@
+.anchor {
+    -fx-background-image:url('../images/interfaceBG.png');
+}
+.handOnBtn {
+    -fx-cursor: hand;
+}
+
+* {
+    -fx-primary: #460068; /*purple*/
+    -fx-bgformenu: #2A2E37; /*dark grey*/
+    -fx-secondary: #ffff6b; /*yellow*/
+    -fx-primaryText: #FFFFFF; /*white*/
+    -fx-tabmenu: #3B3B3B; /*light black*/
+}
+
+.glyph-icon {
+    -fx-fill: black;
+}
+
+.search-icon {
+    -fx-fill: -fx-primaryText;
+}
+
+.chart-icon {
+    -fx-fill: #1b1c26;
+}
+
+.buttondb {
+    -fx-text-fill: -fx-primaryText;
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-secondary;
+    -fx-font: 14pt Regular;
+    -fx-font-weight: 600;
+}
+
+.button {
+    -fx-text-fill: -fx-primaryText;
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-font-size: 13pt;
+    -fx-font-weight: 600;
+}
+
+.button:hover {
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primary;
+}
+
+.button_arrow {
+    -fx-font-size: 12pt;
+    -fx-text-fill: white;
+}
+
+.button_arrow:hover {
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: -fx-secondary
+}
+
+.clearBtn {
+    -fx-font-size: 10pt;
+    -fx-font-weight: 200;
+    -fx-border-color: transparent;
+}
+
+.clearBtn:hover {
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+
+/*JFXTextField*/
+.text {
+    -fx-prompt-text-fill: #23e5ff;
+    -fx-text-fill: -fx-primaryText;
+    -fx-font-size: 14pt;
+    -jfx-focus-color: -fx-secondary;
+}
+
+.textarea {
+    -fx-prompt-text-fill: black;
+    -fx-prompt-text-size: 12pt;
+    -fx-text-fill: black;
+    -fx-font-size: 12pt;
+    -fx-font-family: 'Proxima Nova Alt Rg';
+}
+/*TabPane Styling*/
+
+.tab {
+    -fx-background-color: -fx-tabmenu;
+    -fx-pref-width: 280;
+    -fx-pref-heigh: 50;
+}
+
+.tab-header-background {
+    -fx-background-color: -fx-tabmenu;
+}
+
+/*DatabaseManagement Text*/
+
+.main-text {
+    -fx-fill: -fx-primaryText;
+    -fx-font-size: 13pt;
+}
+
+/*Chart Styling*/
+
+.data0.chart-pie {
+    -fx-pie-color: -fx-secondary;
+    -fx-border-color: derive(-fx-secondary, -30%);
+}
+
+.data1.chart-pie {
+    -fx-pie-color: #4059a9;
+    -fx-border-color: derive(#4059a9, -30%);
+}
+
+.chart-pie-label {
+    -fx-font-size: 13pt;
+    -fx-fill: -fx-secondary;
+}
+
+/* Radio Button */
+
+.jfx-radio-button {
+    -jfx-selected-color: #ffff6b;
+    -jfx-unselected-color: #23e5ff;
+}
